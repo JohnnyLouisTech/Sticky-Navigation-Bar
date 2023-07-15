@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sticky Navigation Bar</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <nav id="navbar">
+        <img src="images/logo.png" class="logo" />
+        <ul id="menu">
+          <li>HOME</li>
+          <li>ABOUT</li>
+          <li>SERVICES</li>
+          <li>PRODUCT</li>
+          <li>CONTACT</li>
+        </ul>
+      </nav>
+    </div>
+    <p class="text">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae
+      felis felis. Integer turpis arcu, vestibulum vel mi nec, suscipit dictum
+      neque. Praesent sed justo non sem faucibus viverra non vel velit.
+      Vestibulum leo nisl, mattis vitae tempus sed, euismod at ante. Nulla eu
+      lorem lorem. Integer ornare ex vel arcu mollis hendrerit. Nulla posuere
+      vulputate rutrum. Nullam tristique pellentesque dui, ac tempus arcu
+      maximus sit amet. Nam commodo lectus ligula, ac porttitor elit auctor
+      lacinia. Cras varius pharetra lectus, nec eleifend odio feugiat non.
+    </p>
+
+    <p class="text">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae
+      felis felis. Integer turpis arcu, vestibulum vel mi nec, suscipit dictum
+      neque. Praesent sed justo non sem faucibus viverra non vel velit.
+      Vestibulum leo nisl, mattis vitae tempus sed, euismod at ante. Nulla eu
+      lorem lorem. Integer ornare ex vel arcu mollis hendrerit. Nulla posuere
+      vulputate rutrum. Nullam tristique pellentesque dui, ac tempus arcu
+      maximus sit amet. Nam commodo lectus ligula, ac porttitor elit auctor
+      lacinia. Cras varius pharetra lectus, nec eleifend odio feugiat non.
+    </p>
+
+    <p class="text">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae
+      felis felis. Integer turpis arcu, vestibulum vel mi nec, suscipit dictum
+      neque. Praesent sed justo non sem faucibus viverra non vel velit.
+      Vestibulum leo nisl, mattis vitae tempus sed, euismod at ante. Nulla eu
+      lorem lorem. Integer ornare ex vel arcu mollis hendrerit. Nulla posuere
+      vulputate rutrum. Nullam tristique pellentesque dui, ac tempus arcu
+      maximus sit amet. Nam commodo lectus ligula, ac porttitor elit auctor
+      lacinia. Cras varius pharetra lectus, nec eleifend odio feugiat non.
+    </p>
+
+    <p class="text">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae
+      felis felis. Integer turpis arcu, vestibulum vel mi nec, suscipit dictum
+      neque. Praesent sed justo non sem faucibus viverra non vel velit.
+      Vestibulum leo nisl, mattis vitae tempus sed, euismod at ante. Nulla eu
+      lorem lorem. Integer ornare ex vel arcu mollis hendrerit. Nulla posuere
+      vulputate rutrum. Nullam tristique pellentesque dui, ac tempus arcu
+      maximus sit amet. Nam commodo lectus ligula, ac porttitor elit auctor
+      lacinia. Cras varius pharetra lectus, nec eleifend odio feugiat non.
+    </p>
+
+    <p class="text">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae
+      felis felis. Integer turpis arcu, vestibulum vel mi nec, suscipit dictum
+      neque. Praesent sed justo non sem faucibus viverra non vel velit.
+      Vestibulum leo nisl, mattis vitae tempus sed, euismod at ante. Nulla eu
+      lorem lorem. Integer ornare ex vel arcu mollis hendrerit. Nulla posuere
+      vulputate rutrum. Nullam tristique pellentesque dui, ac tempus arcu
+      maximus sit amet. Nam commodo lectus ligula, ac porttitor elit auctor
+      lacinia. Cras varius pharetra lectus, nec eleifend odio feugiat non.
+    </p>
+
+    <script>
+      var navbar = document.getElementById("navbar");
+      var menu = document.getElementById("menu");
+
+      window.onscroll = function () {
+        if (window.pageYOffset >= menu.offsetTop) {
+          navbar.classList.add("sticky");
+        } else {
+          navbar.classList.remove("sticky");
+        }
+      };
+    </script>
+  </body>
+</html>
